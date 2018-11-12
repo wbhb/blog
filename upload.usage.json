@@ -1,0 +1,58 @@
+{
+  "title": "WBHB upload script help",
+  "description": "This upload script is used to deploy a blog post and its assets onto the server. Assets are resized during the upload, and content is proofread.",
+  "options": {
+    "help": {
+      "type": "Boolean",
+      "description": "display this help info",
+      "longFlags": [
+        "usage",
+        "help"
+      ],
+      "shortFlags": [
+        "h"
+      ]
+    },
+    "create": {
+      "type": "Boolean",
+      "description": "UNIMPLEMENTED create a new post",
+      "longFlags": [
+        "create"
+      ]
+    },
+    "skip": {
+      "type": "String",
+      "description": "UNIMPLEMENTED list of steps to skip: --skip=images,content,proofread",
+      "longFlags": [
+        "skip"
+      ]
+    },
+    "skipimages": {
+      "type": "Boolean",
+      "description": "do not process or upload image files",
+      "longFlags": [
+        "skipimages"
+      ]
+    },
+    "skipcontent": {
+      "type": "Boolean",
+      "description": "do not process or upload content",
+      "longFlags": [
+        "skipcontent"
+      ]
+    },
+    "skipproofread": {
+      "type": "Boolean",
+      "description": "do not proofread content",
+      "longFlags": [
+        "skipproofread"
+      ]
+    }
+  },
+  "examples": [
+    "node upload.js [options] -- [file]",
+    "node upload.js [options] -- [folder]",
+    "node upload.js [options] -- [files] [folders]",
+    "node upload.js [--usage | --help | -h]"
+  ]
+}

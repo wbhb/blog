@@ -1,0 +1,17 @@
+{
+  "name": "wbhb-blog",
+  "version": "0.0.1",
+  "main": "upload.js",
+  "repository": "github.com/wbhb/blog",
+  "author": "Toby Roworth",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "aws-sdk": "^2.247.1",
+    "chalk": "^2.4.1",
+    "gm": "^1.23.1",
+    "minimist": "^1.2.0",
+    "node-fetch": "^2.1.2",
+    "nodehun": "^2.0.12"
+  }
+}
