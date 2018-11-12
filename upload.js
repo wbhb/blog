@@ -409,9 +409,9 @@ async function proofread(content) {
   	  if (correct) {
   	    return;
   	  } else {
-  	    console.warn(chalk`{magenta Proofing:} ${origWord} is not in the dictionary replace with:`);
+  	    console.warn(chalk`{magentaBright Proofing:} ${origWord} {magentaBright is not in the dictionary replace with:}`);
   	    suggestions.forEach((suggestion, index) => {
-  	      console.info(chalk`\t{magenta ${index}:}\t${suggestion}`);
+  	      console.info(chalk`\t{magentaBright ${index}:}\t${suggestion}`);
   	    });
   	  }
     });
