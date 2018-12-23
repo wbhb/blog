@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120959363-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-120959363-1');
+    </script>
+
+    <title>Merry Christmas from Toby</title>
+    <link rel="shortcut icon" href="https://static.wearsblackhasbeard.com/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="https://static.wearsblackhasbeard.com/images/favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://static.wearsblackhasbeard.com/christmas2018.html">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel="preload" href="https://static.wearsblackhasbeard.com/fonts/cala-light.ttf" type="font/ttf" as="font">
+
+    <style>
+      html {
+        --wbhb-color-yellow: #fedb00;
+        --wbhb-color-grey: #53565A;
+        --wbhb-color-black: #000000;
+        --wbhb-font-heading: "Ubuntu", sans-serif;
+        --wbhb-font-body: "Cala Light", serif;
+      }
+
+      @font-face {
+        font-family: "Cala Light";
+        src: url("https://static.wearsblackhasbeard.com/fonts/cala-light.ttf");
+        font-display: fallback;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: var(--wbhb-font-body);
+        line-height: 200%;
+      }
+
+      .container {
+        padding: 0;
+        margin-left: calc(5vmin + calc(calc(90vw - 90vmin) / 2));
+        margin-right: calc(5vmin + calc(calc(90vw - 90vmin) / 2));
+      }
+
+      .content {
+        text-align: justify;
+      }
+
+      .flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content container flex">
+      <canvas id="card" width="600" height="340">
+        Merry Christmas from Toby
+      </canvas>
+      <script async src="https://static.wearsblackhasbeard.com/christmas2018.js"></script>
+    </div>
+  </body>
+</html>

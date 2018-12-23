@@ -33,7 +33,7 @@ let readFileAsync = util.promisify(fs.readFile);
 
 let dict;
 
-const configFile = require("./uploadrc.json");
+const configFile = require("./blogrc.json");
 
 const sizes = [{
     name: "full",
